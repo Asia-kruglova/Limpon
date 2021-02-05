@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Limpon</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-   <div>
+   <div class="page-header">
        <div>
         <a href=""></a>
-        <ul>
+        <ul class="nav">
             <li>Home</li>
             <li>Features</li>
             <li>Video</li>
             <li>Screens</li>
             <li>Pricing</li>
             <li>Team</li>
-            <li><a href="">free trail</a></li>
+            <li><a href="" class="btn-free">free trail</a></li>
         </ul>
        </div>
         <h1>Best Software  Landingpage</h1>
@@ -25,7 +28,7 @@
             <a href="">learn more</a>
         </div>
    </div>
-   <div>
+   <div class="page-company">
        <ul>
            <li></li>
            <li></li>
@@ -33,40 +36,40 @@
            <li></li>
        </ul>
    </div>
-   <div>
-       <div>
+   <div class="page-grid">
+       <div class="grid">
            <h2><span>Features</span>Best Features Ever Seen</h2>
-           <div>
+           <div class="grid-item">
                <div></div>
                <h3>Mobile Friednly Design</h3>
                <p>Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed</p>
                <a href="">Read More</a>
            </div>
-           <div>
+           <div class="grid-item">
             <div></div>
             <h3>Well Documented</h3>
             <p>Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed</p>
             <a href="">Read More</a>
            </div>
-           <div>
+           <div class="grid-item">
             <div></div>
             <h3>Highly Customizeable</h3>
             <p>Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed </p>
             <a href="">Read More</a>
            </div>
-           <div>
+           <div class="grid-item">
             <div></div>
             <h3>Easy To Edit</h3>
             <p>Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed </p>
             <a href="">Read More</a>
            </div> 
-           <div>
+           <div class="grid-item">
             <div></div>
             <h3>Responsive Design</h3>
             <p>Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed</p>
             <a href="">Read More</a>
            </div> 
-           <div>
+           <div class="grid-item">
             <div></div>
             <h3>24/7 Online Support</h3>
             <p>Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed</p>
@@ -74,11 +77,11 @@
            </div> 
            <div>
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed d</p>
-               <p><span>Rosalina Pong</span> - Founder, uithemes</p>
+               <p class="author"><span>Rosalina Pong</span> - Founder, uithemes</p>
            </div>
        </div>
    </div>
-   <div>
+   <div class="page-subscribe">
        <div>
            <div>
                <h2><span>Subscribe</span>Signup For A Trail</h2>
@@ -90,7 +93,7 @@
            <img src="img/Robot.png" alt="Robot">
        </div>
    </div>
-   <div>
+   <div class="page-software">
        <div></div>
        <h2>Grab Your  Software
         With Amazing  Features</h2>
@@ -105,9 +108,9 @@
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</dd>
         </dl>
    </div>
-   <div>
+   <div class="page-stat">
        <div>
-           <h2><span>FUn Facts</span>Some Fun Facts
+           <h2><span>Fun Facts</span>Some Fun Facts</br>
             About Dashboard</h2>
             <ul>
                 <li><span>53K</span>Layouts</li>
@@ -117,7 +120,7 @@
             </ul>
        </div>
    </div>
-   <div>
+   <div class="page-app">
        <div>
            <div>
                 <h2>Meet With
@@ -138,7 +141,7 @@
        </div>
    </div>
    <!-- Далее идет разметка двух блоков (8ого и 9ого), выполненная мною в качестве Д/з-->
-    <div> <!-- Для выделения всего фона 8 блока-->
+    <div class="page=analytics"> <!-- Для выделения всего фона 8 блока-->
         <div> <!-- Для ограничения размеров блока с содержанием во всем 8 блоке-->
             <img src="img/8block-screen.png" alt="chart">
             <div> <!-- Для разметки текстового блока справа-->
@@ -150,12 +153,14 @@
                 на Cancel Text-->
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-                <button type="submit">get started now</button>
-                <!-- Вероятно нужно было использовать ссылку-->
+                <a href="">get started now</a>
+                <!-- Я записала кнопку как <button type="submit">get started now</button>, а автор
+                ее создает при помощи ссылки, так что я исправила. Видимо она просто перекидывает нас
+            на другую опред страницу сети-->
             </div>
         </div>
     </div>
-    <div> <!-- Для выделения всего фона 9 блока-->
+    <div class="page-9block"> <!-- Для выделения всего фона 9 блока-->
         <div> <!-- Для ограничения размеров блока с содержанием во всем 9 блоке-->
             <div> <!-- Для разметки текстового блока слева-->
                 <div></div> <!-- Для иконки-->
@@ -167,6 +172,10 @@
             </div>
             <img src="img/9block-screen.png" alt="chart2">
         </div>
+    </div>
+    <div class="page-screen">
+            <h2><span>screen preview</span>Screenshot With Details</h2>
+            <img src="img/10block-screen.png" alt="screen">
     </div>
 </body>
 </html>

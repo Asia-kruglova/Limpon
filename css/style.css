@@ -1,0 +1,101 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* межстрочный интервал*/
+    color: #7581a1;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1{
+    font-size: 80px;
+    font-weight: 600;
+    color: #192b59;
+    line-height: 90px;
+}
+
+.nav{
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #6e7ea9;
+}
+
+.btn-free {
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #1085e4;
+}
+
+.grid h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #192b59;
+}
+
+.grid h2 span {
+    font-size: 14px;
+    font-weight: 800;
+    color: #1085e4;
+    text-transform: uppercase;
+    display: block;
+}
+
+.grid-item h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #192b59;
+}
+
+.grid item a{
+    font-size: 14px;
+    font-weight: 600;
+    color: #1085e4;
+}
+
+.author{
+    font-size: 14px;
+    font-weight: 400;
+    color: #1085e4;
+}
+
+.author span{
+    font-size: 16px;
+    font-weight: 700;
+    color: #192b59;
+}
+
+.page-stat h2{
+    font-size: 50px;
+    font-weight: 600;
+    color:#192b59;
+    line-height: 60px;
+    text-align: center;
+}
+
+.page-stat h2 span{
+    font-size: 16px;
+    font-weight: 800;
+    color:#1085e4;
+    display: block;
+    line-height: 60px;
+    }
+
+.page-screen h2{
+    font-size: 40px;
+    font-weight: 600;
+    color:#192b59;
+    line-height: 50px;
+    text-align: center;
+}
+
+.page-screen h2 span{
+    font-size: 18px;
+    font-weight: 800;
+    color:#1085e4;
+    display: block;
+    line-height: 90px;
+}

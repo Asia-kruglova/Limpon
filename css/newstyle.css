@@ -394,7 +394,7 @@ h1 {
     letter-spacing: -1px;
 }
 
-.box-team p{
+.box-team p span{
     font-size: 14px;
     font-weight:800;
     color: #1a88e1;
@@ -403,10 +403,37 @@ h1 {
     letter-spacing: 2.7px;
 }
 
-.box-team p span{
+.box-team p {
     font-size: 26px;
     font-weight:600;
     color: #192b59;
     line-height: 26px;
     letter-spacing: -1px;
+}
+
+.page-form h2{
+    font-size: 50px;
+    font-weight:600;
+    color: #192b59;
+    line-height: 60px;
+    letter-spacing: -1.5px;
+}
+
+.footer p{
+    color:#cbdbe8;
+    line-height: 40px;
+}
+
+.footer a {
+    font-size:16px;
+    text-transform: uppercase;
+    color:#1085e4;
+    line-height: 40px;
+}
+
+.page-form ::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+    color: #8995b3;
+    line-height: 60px;
 }

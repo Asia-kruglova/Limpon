@@ -3,7 +3,7 @@ body {
     font-size: 16px;
     font-weight: 400;
     color: #7581a1;
-    /* Анна Блок пока что нигде не писала у текста line-height: 26px; */
+    line-height: 26px;
 }
 
 a {
@@ -238,4 +238,175 @@ h1 {
     font-weight: 600;
     color:#192b59;
     line-height: 50px;
+}
+
+.page-clients h2 span {
+    font-size: 18px;
+    font-weight: 800;
+    color:#85c8ff;
+    line-height: 90px;
+    text-transform: uppercase;
+    display: block;
+}
+
+.page-clients h2 {
+    font-size: 40px;
+    font-weight: 600;
+    background: #000; /*временно, чтобы было видно белый текст */
+    color:#fff;
+    line-height: 50px;
+}
+
+.box-clients {
+    font-size: 14px;
+    font-weight: 400;
+    color:#8085b1;
+    line-height: 24px;
+}
+.name {
+    color:#000958;
+    font-size:22px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.position {
+    color:#1085e4;
+    font-size:14px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.page-plan h2 span {
+    font-size: 18px;
+    font-weight: 800;
+    color:#1085e4;
+    line-height: 90px;
+    text-transform: uppercase;
+    display: block;
+}
+
+.page-plan h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color:#192b59;
+    line-height: 50px;
+}
+
+.box-price {
+    font-size:14px;
+    font-weight:400;
+    color:#8085b1;
+    line-height: 40px;
+}
+
+.box-price-item ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+.box-price-item ul {
+    list-style-type: none;
+    margin:0 0 47px 0;
+    padding:0;
+}
+
+.box-price-item-active ul {
+    list-style-type: none;
+    margin:0 0 47px 0;
+    padding:0;
+}
+
+
+.box-price-item h3 {
+    font-size: 70px;
+    font-weight: 800;
+    color:#000958;
+    line-height: 40px;
+}
+
+.box-price-item h3 span {
+    font-size: 20px;
+    font-weight: 800;
+    color:#000958;
+}
+
+.box-price-item h3 p {
+    display:inline;
+    font-size: 20px;
+    color:#7b8ab2;
+    }
+
+.box-price-item p strong {
+    font-size:14px;
+    font-weight:800;
+    color:#0084ff;
+    text-transform:uppercase;
+    letter-spacing: 2.7px;
+    line-height: 40px;
+}   
+
+.box-price-item-active h3 {
+    font-size: 70px;
+    font-weight: 800;
+    color:#fff;
+    background: #000; /*временно, чтобы было видно белый текст */
+    line-height: 40px;
+    }
+
+.box-price-item-active h3 span {
+    font-size: 20px;
+    }
+
+.box-price-item-active h3 p {
+    display:inline;
+    font-size: 20px;
+    color:#7b8ab2;
+    }
+
+.box-price-item-active p strong {
+    font-size:14px;
+    font-weight:800;
+    color:#fff;
+    background: #000; /*временно, чтобы было видно белый текст */
+    text-transform:uppercase;
+    letter-spacing: 2.7px;
+    line-height: 40px;
+}   
+
+.page-team h2 span{
+    display:block;
+    font-size: 18px;
+    font-weight: 800;
+    color:#85c8ff;
+    line-height: 90px;
+    text-transform: uppercase;
+    letter-spacing: 3.7px;
+}
+
+.page-team h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+    background: #000; /*временно, чтобы было видно белый текст */
+    line-height: 50px;
+    letter-spacing: -1px;
+}
+
+.box-team p{
+    font-size: 14px;
+    font-weight:800;
+    color: #1a88e1;
+    line-height: 60px;
+    text-transform: uppercase;
+    letter-spacing: 2.7px;
+}
+
+.box-team p span{
+    font-size: 26px;
+    font-weight:600;
+    color: #192b59;
+    line-height: 26px;
+    letter-spacing: -1px;
 }
